@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Tangent';
+    src: url('../fonts/Tangent-Bold.eot');
+    src: url('../fonts/Tangent-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Tangent-Bold.woff2') format('woff2'),
+    url('../fonts/Tangent-Bold.woff') format('woff'),
+    url('../fonts/Tangent-Bold.ttf') format('truetype'),
+    url('../fonts/Tangent-Bold.svg#Tangent-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TanseekModernProArabic-Book';
+    src: url('../fonts/TanseekModernProArabic-Book.eot');
+    src: url('../fonts/TanseekModernProArabic-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TanseekModernProArabic-Book.woff2') format('woff2'),
+    url('../fonts/TanseekModernProArabic-Book.woff') format('woff'),
+    url('../fonts/TanseekModernProArabic-Book.ttf') format('truetype'),
+    url('../fonts/TanseekModernProArabic-Book.svg#TanseekModernProArabic-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #D80000;
+    margin-bottom: 30px;
+}
+.di-content{
+    margin: auto;
+    max-width: 1300px;
+}
+
+header .b-line{
+    font-size: 50px;
+    border-bottom: 1px solid #DB7F7F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header .logo a{
+    color: #fff;
+    text-decoration: none;
+}
+header nav{
+    padding: 8px 0 8px 0;
+}
+header .menu_nav{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+header .menu_nav a{
+    color: #fff;
+    text-decoration: none;
+}
+header .menu_nav::after{
+    margin-left: 10px;
+    content: "|";
+    color: #DB7F7F;
+}
+.menu_nav:hover {
+    text-decoration:underline;
+}
+header .menu_nav:last-of-type{
+    margin-right: 0;
+}
+.news{
+    max-width: 950px;
+}
+.news h1{
+    color: #383131;
+    font-size: 41px;
+    font-family: 'Tangent';
+}
+.news p:first-of-type{
+    color: #8b8b8b;
+    margin-top: -10px;
+    font-size: 21px;
+}
+.news p:first-of-type::before{
+    content: "|  ";
+    color: #8b8b8b;
+}
+.news *{
+    margin-bottom: 20px;
+    font-family: 'TanseekModernProArabic-Book';
+    font-size: 25px;
+}
+.news ul{
+    color: #383131;
+    padding-left: 12px;
+}
+.news ul li a{
+    color: #383131;
+}
+footer{
+    background-color:#282828;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.f_container{
+    padding-top: 20px;
+}
+.f_border{
+    border-bottom: #ffffff solid 1px;
+}
+.f_container h2{
+    margin-bottom: 20px;
+}
+footer .social{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin-bottom: 10px;
+}
+footer .f_menu{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding-bottom: 10px;
+}
+footer .f_menu li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+footer .f_menu li:last-of-type{
+margin-bottom: 0;
+}
+footer .f_menu ul{
+    margin-top: 10px;
+    padding:10px 130px 10px 20px;
+    border-right: #ffffff solid 1px;
+}
+footer .f_menu ul:first-of-type{
+    padding-left: 0;
+}
+footer .f_menu ul:last-of-type{
+    border-right: none;
+}
+.d-flex{
+    padding-top: 10px;
+    border-top: #ffffff solid 1px;
+    max-width: 1300px;
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom: 10px;
+}
+.d-flex a{
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+
